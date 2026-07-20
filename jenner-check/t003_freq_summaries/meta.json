@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_freq_summaries",
+  "source_file": "Analysis of GLH per Learner in the UK.sas",
+  "source_blob_sha": "27176dda97963dee1e428c1388f607374671b948",
+  "source_commit": "36349c6399ffcc38978de69c17da24030a0216db",
+  "notes": "Author's PROC FREQ summaries of Institute_Type, Region, Size, and the Institute_Type*Size crosstab."
+}

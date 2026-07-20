@@ -1,0 +1,49 @@
+                               Examining Effect of Year on glh/learner Through ANOVA Test
+                                     Looking Into Means in Glh_per_learner variable
+
+                                                  The MEANS Procedure
+
+                                           Analysis Variable : GLH_PER_YEAR1
+
+        NAME OF FORMER VARIABLE      N    Mean  Std Dev
+        -----------------------------------------------
+        Glh_per_learner_1           18  1203.3    666.9
+        Glh_per_learner_2           18  1203.7    647.8
+        Glh_per_learner_3           18  1206.8    627.4
+        -----------------------------------------------
+
+                                        Applying ANOVA On Years and glh/learner
+
+                         The GLM Procedure                          
+                 Dependent Variable: glh_per_year1                  
+
+Source          DF  Sum of Squares   Mean Square   F Value    Pr > F
+--------  --------  --------------  ------------  --------  --------
+GLH_YEAR         2       129.06876      64.53438      0.00    0.9998
+Error           51  21386427.59552  419341.71756                    
+
+Root MSE         647.56599    R-Square            0.0000
+Adj R-Sq           -0.0392
+
+    Means for Effect: NAME OF FORMER VARIABLE     
+
+Level                    Mean    Std Dev         N
+-----------------  ----------  ---------  --------
+Glh_per_learner_1  1203.34081  666.87818        18
+Glh_per_learner_2  1203.74878  647.78696        18
+Glh_per_learner_3  1206.80530  627.43183        18
+
+Levene's Test for Homogeneity of Variance
+
+Statistic    Pr > F
+---------  --------
+   0.0310    0.9695
+
+                   t Tests (LSD) for NAME OF FORMER VARIABLE                   
+
+Group 1            Group 2            Difference        LSD  Pr > |t|  Sig     
+-----------------  -----------------  ----------  ---------  --------  --------
+Glh_per_learner_1  Glh_per_learner_2    -0.40797  433.34766    0.9985          
+Glh_per_learner_1  Glh_per_learner_3    -3.46449  433.34766    0.9873          
+Glh_per_learner_2  Glh_per_learner_3    -3.05652  433.34766    0.9888          
+

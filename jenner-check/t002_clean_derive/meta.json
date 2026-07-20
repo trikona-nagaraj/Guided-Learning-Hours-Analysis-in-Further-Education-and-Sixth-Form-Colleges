@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_clean_derive",
+  "source_file": "Analysis of GLH per Learner in the UK.sas",
+  "source_blob_sha": "27176dda97963dee1e428c1388f607374671b948",
+  "source_commit": "36349c6399ffcc38978de69c17da24030a0216db",
+  "notes": "Author's data-cleaning DATA step: missing-value mean-substitution, per-learner GLH ratios, Average_Glh_Hours, Total_Glh_per_learner, and Size band classification, verified with PROC PRINT + PROC CONTENTS."
+}

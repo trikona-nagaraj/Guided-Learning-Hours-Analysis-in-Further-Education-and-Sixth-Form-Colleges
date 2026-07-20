@@ -1,0 +1,17 @@
+{
+  "_captured_at": "2026-07-20T15:17:05.941289+00:00",
+  "_captured_run_id": "r_3d34cfed8b0249a8ac04db8f4e7b86d0",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.modified (18 rows, 15 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
