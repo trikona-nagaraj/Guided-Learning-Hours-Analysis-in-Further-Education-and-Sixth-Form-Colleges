@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_transpose_anova",
+  "source_file": "Analysis of GLH per Learner in the UK.sas",
+  "source_blob_sha": "27176dda97963dee1e428c1388f607374671b948",
+  "source_commit": "36349c6399ffcc38978de69c17da24030a0216db",
+  "notes": "Author's PROC TRANSPOSE of the three per-year ratios into a long dataset, then PROC MEANS and PROC GLM (ANOVA) of GLH-per-learner across years."
+}

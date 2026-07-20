@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_import_merge",
+  "source_file": "Analysis of GLH per Learner in the UK.sas",
+  "source_blob_sha": "27176dda97963dee1e428c1388f607374671b948",
+  "source_commit": "36349c6399ffcc38978de69c17da24030a0216db",
+  "notes": "Author's INFILE/INPUT import of the 6th-form and FE datasets, SET merge, and PROC MEANS missing-value count. External CSVs replaced by inline DATALINES of the README's 8-column shape."
+}

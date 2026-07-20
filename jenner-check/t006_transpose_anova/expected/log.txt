@@ -1,0 +1,68 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.sixthform
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 9 rows from DATALINES.
+NOTE: Wrote work.sixthform (9 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA work.fedata
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 9 rows from DATALINES.
+NOTE: Wrote work.fedata (9 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA work.merged
+
+
+NOTE: Read 9 rows from work.sixthform.
+NOTE: Read 18 rows from work.fedata.
+NOTE: Wrote work.merged (18 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA work.cleaned
+
+
+NOTE: Read 18 rows from work.merged.
+NOTE: Wrote work.cleaned (18 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA work.modified
+
+
+NOTE: Read 18 rows from work.cleaned.
+NOTE: Wrote work.modified (18 rows, 15 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC TRANSPOSE data=work.modified
+
+NOTE: Created 54 rows.
+NOTE: Output written to /tmp/work/r_c8e676bad0e24813981445c6735d592d/work/fcbb97dc-1b29-49fe-a90e-301c0d60b8f8/transposed.avro.
+NOTE: Option TITLE changed to Examining Effect of Year on glh/learner Through ANOVA Test.
+NOTE: Option TITLE2 changed to Looking Into Means in Glh_per_learner variable.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: Option TITLE changed to Applying ANOVA On Years and glh/learner.
+NOTE: PROC GLM data=work.transposed
+
+NOTE: Warning message:
+NOTE: In file(paste0("<wrapper>", .jen_rfd), "rb") :
+NOTE:   using 'raw = TRUE' because '<wrapper>' is a fifo or pipe
+NOTE: Warning message:
+NOTE: In readLines(file("stdin")) : incomplete final line found on 'stdin'
+NOTE: ODS plot written: glm_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: glm_residual_histogram_panel.spec.json
+NOTE: ODS plot written: glm_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: glm_qq_plot.spec.json
+NOTE: PROC GLM ODS Graphics generated.
+NOTE: PROC GLM statement used.

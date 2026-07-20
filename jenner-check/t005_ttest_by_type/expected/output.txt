@@ -1,0 +1,41 @@
+                            Examining Effect of Institute_Type on glh/learner Through t-test
+                                     Looking Into Means in Glh_per_learner variable
+
+                                                  The MEANS Procedure
+
+                                        Analysis Variable : log_Glh_per_learner
+
+        Type of Instiitute          N Obs           Mean        Std Dev        Minimum        Maximum
+        ---------------------------------------------------------------------------------------------
+        Further Education               9      6.8684869      0.7850514      5.2157138      7.6971625
+        Sixth Form                      9      6.9495343      0.6366088      5.8325633      7.7711970
+        ---------------------------------------------------------------------------------------------
+
+                                                   Performing t-test
+
+                   The TTEST Procedure                    
+              Variable:  log_Glh_per_learner              
+
+Type of Instiitute         N      Mean   Std Dev   Std Err
+------------------  --------  --------  --------  --------
+Sixth Form                 9    6.9495    0.6366    0.2122
+Further Education          9    6.8685    0.7851    0.2617
+Diff (1-2)                      0.0810                    
+
+Type of Instiitute  Lower CL Mean      Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+------------------  -------------  --------  -------------  ----------------  --------  ----------------
+Sixth Form                 6.4602    6.9495         7.4389            0.4300    0.6366            1.2196
+Further Education          6.2650    6.8685         7.4719            0.5303    0.7851            1.5040
+Diff (1-2)                -0.6332    0.0810         0.7953            0.5323    0.7147            1.0877
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal            16      0.24    0.8130
+Satterthwaite  Unequal        15.3      0.24    0.8131
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F      1.52    0.5669
+
